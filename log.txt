@@ -517,3 +517,10 @@
   industry recruiter planning headcount can't assess timing.
 - Fix: Changed to "2020 – 2026 (expected)". Owner should update with actual
   expected graduation date/semester if different.
+
+2026-03-19 — Review #77: No code link for Chaos publication
+- The bifurcs GitHub repo contains the code for the Chaos 2024 paper but isn't
+  linked from the publication entry. Employers and researchers evaluating code
+  quality or reproducibility can't find it. Linking code to papers is increasingly
+  expected in ML research.
+- Fix: Added a "Code" pill link to the bifurcs repo on the Chaos publication entry.
