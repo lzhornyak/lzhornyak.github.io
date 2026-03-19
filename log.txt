@@ -214,3 +214,10 @@
   Core Web Vitals affect search ranking — matters for employer discoverability.
 - Fix: Added width="200" height="240" matching the CSS display size so the
   browser reserves the correct space before the image loads.
+
+2026-03-19 — Review #35: Hero photo is 3.4 MB — far too large
+- The photo was the original camera file (512x384, 3.4 MB) displayed at 200x240px.
+  On mobile data or slow connections the page load is noticeably slow. Google
+  PageSpeed would flag this as the dominant performance issue.
+- Fix: Resized to 400x480 (2x for retina) at JPEG quality 80. Result: 31 KB —
+  a 99% file size reduction with no visible quality loss at display size.
