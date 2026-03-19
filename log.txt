@@ -450,3 +450,10 @@
 - Fix: Reworded to active voice ("Found that optimal gaits closely match biological
   feline locomotion patterns, validating the approach") and added "(Robotica 2020)"
   to match the pattern of the other cards.
+
+2026-03-19 — Review #68: Dynamical Systems card missing publication reference
+- After adding "(Robotica 2020)" to the Robotics card, the three research cards
+  have an inconsistent pattern: two cite their publication venue but the primary
+  research area (Dynamical Systems) doesn't.
+- Fix: Added "(Chaos 2024)" to the end of the Dynamical Systems description.
+  All three cards now follow the same structure.
