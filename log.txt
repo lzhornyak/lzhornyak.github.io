@@ -413,3 +413,11 @@
 - Fix: Generated a 1200x630 OG banner with name, title, university, and research
   areas on a branded gradient. Added og:image:width/height hints. Upgraded
   twitter:card from "summary" to "summary_large_image" for larger previews.
+
+2026-03-19 — Review #63: Computer Vision description uses unexpanded jargon
+- "AP's blindness", "NMS", "F1" used without explanation. Even tech employers
+  outside computer vision wouldn't know what AP stands for. The description reads
+  as insider jargon that assumes too much domain knowledge.
+- Fix: Expanded "AP" to "Average Precision (AP)" with context ("the standard
+  evaluation metric"), replaced "F1 improvement" with "better detection accuracy",
+  and simplified the metrics to be meaningful without CV expertise.
