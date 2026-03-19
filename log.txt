@@ -9,3 +9,10 @@
 - Research cards used abstract language without concrete outcomes or methods.
 - An employer wants to know what you built and what it achieved, not just the topic area.
 - Fix: Rewrote each research card to specify the method, contribution, and application.
+
+2026-03-19 — Review #3: Experience descriptions lack context and impact
+- Industry roles just state what was built ("a computer vision pipeline") with no indication
+  of purpose, scope, or technical depth.
+- Employers scanning quickly can't distinguish this from a toy project vs. production work.
+- Fix: Added context (why the work mattered, what platform/domain) to each experience entry
+  without fabricating metrics. Real numbers should be added by the site owner.
