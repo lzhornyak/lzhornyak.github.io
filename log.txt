@@ -114,3 +114,9 @@
 - Fix: Replaced with a CVF Open Access link (the canonical free proceedings version),
   a separate arXiv link, and the PDF link. The IEEE Xplore DOI could not be confirmed
   programmatically — owner should add it if known.
+
+2026-03-19 — Review #20: RoboSoccer team lead entry has no description
+- Two years as Control Team Lead on a humanoid robot soccer team — directly relevant
+  to robotics employers — but says nothing about what was done.
+- Fix: Added description covering control subsystem leadership, locomotion, balance,
+  and behavior planning. Owner should add specifics (competitions attended, results).
