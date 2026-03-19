@@ -339,6 +339,14 @@ main {
   line-height: 1.4;
 }
 
+.pub-details h3 a {
+  color: var(--color-text);
+}
+
+.pub-details h3 a:hover {
+  color: var(--color-accent);
+}
+
 .pub-authors {
   font-size: 0.9rem;
   color: var(--color-text-secondary);

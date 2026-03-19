@@ -396,3 +396,11 @@
   candidate's core competencies and should carry semantic weight.
 - Fix: Changed to <strong class="highlight"> so screen readers announce emphasis
   and search engines treat them as keyword signals.
+
+2026-03-19 — Review #61: Publication titles are not clickable
+- Paper titles are static h3 text. An employer's instinct is to click the title to
+  read the paper, but nothing happens — they have to find the small pill buttons
+  below. On most academic sites, the title itself links to the paper.
+- Fix: Wrapped each publication h3 in a link to the paper's primary URL (DOI or
+  CVF). Styled to inherit heading color with accent on hover, so they look clean
+  but signal clickability.
