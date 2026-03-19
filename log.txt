@@ -144,3 +144,11 @@
   the Education section, making the hero feel repetitive.
 - Fix: Replaced the backward-looking UofT paragraph with a forward-looking research
   vision statement about bridging dynamical systems theory and robotic applications.
+
+2026-03-19 — Review #25: Education section has broken heading hierarchy (h2 → h4)
+- Degree titles used h4 but the section heading is h2, skipping h3. This is a WCAG
+  heading hierarchy violation that automated accessibility tools flag.
+- In Experience, h3 is used for category groups so h4 makes sense for items. But
+  Education has no grouping layer, so degrees should be h3.
+- Fix: Changed degree headings to h3 and updated CSS to style h3 inside .exp-details
+  the same as h4.

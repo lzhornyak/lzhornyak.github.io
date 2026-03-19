@@ -388,6 +388,7 @@ main {
   padding-top: 2px;
 }
 
+.exp-details h3,
 .exp-details h4 {
   font-size: 1rem;
   font-weight: 600;
