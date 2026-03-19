@@ -62,3 +62,8 @@
 - Fix: Added brief context for each award (competitive international fellowship,
   national peer-reviewed grant). Changed reviewer to "Peer Reviewer" with date
   range "2023–Present" and added RA-L abbreviation for recognition.
+
+2026-03-19 — Review #11: Research section missing from navigation
+- Nav links go About → Publications → Experience → Contact, skipping the Research
+  section entirely. An employer scanning the nav would never know it exists.
+- Fix: Added "Research" link between About and Publications in the nav bar.
