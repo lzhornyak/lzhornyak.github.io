@@ -81,3 +81,9 @@
 - The contact section mentions "GRASP Lab, University of Pennsylvania" as plain text.
   An academic employer would expect to click through to the lab page.
 - Fix: Made "GRASP Lab, University of Pennsylvania" a link to grasp.upenn.edu.
+
+2026-03-19 — Review #15: No skip-nav link for keyboard/screen-reader users
+- Keyboard users must tab through every nav link before reaching page content,
+  violating WCAG 2.1 AA accessibility standards.
+- Fix: Added a "Skip to main content" link that is visually hidden until focused,
+  then appears centered at the top of the page.
