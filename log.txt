@@ -159,3 +159,11 @@
   Scholar link exists in the hero but no one scrolls back up to find it mid-section.
 - Fix: Added "For a complete list of publications, see Google Scholar" link at the
   bottom of the publications section.
+
+2026-03-19 — Review #27: No mention of technical skills or programming languages
+- The page describes research topics and results but never states which languages or
+  tools are used. Industry employers filter on this; academic labs want to know what
+  a candidate can contribute technically. Confirmed tools from GitHub repos and
+  experience entries: Python, PyTorch, MATLAB, C, Jupyter, Linux, Git.
+- Fix: Added a compact "Tools" line at the bottom of the Research section.
+  Owner should update this list as their toolset evolves.

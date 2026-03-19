@@ -297,6 +297,12 @@ main {
   line-height: 1.6;
 }
 
+.tools-line {
+  margin-top: 28px;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
 /* ===== Publications ===== */
 .pub-list {
   display: flex;
