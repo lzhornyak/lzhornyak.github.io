@@ -348,3 +348,10 @@
   but the site ignores this preference — a WCAG 2.1 AAA failure.
 - Fix: Added prefers-reduced-motion: reduce media query that disables smooth
   scrolling, zeroes all transition/animation durations, and removes hover transforms.
+
+2026-03-19 — Review #54: No visible focus styles for keyboard navigation
+- Only the skip-link had a :focus style. All other interactive elements (nav links,
+  buttons, publication links) relied on inconsistent browser defaults. Keyboard users
+  tabbing through the page may not see where focus is — a WCAG 2.4.7 failure.
+- Fix: Added a global :focus-visible rule with a 2px accent-colored outline and
+  offset. Uses :focus-visible (not :focus) so mouse users don't see outlines.
