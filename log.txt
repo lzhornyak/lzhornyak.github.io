@@ -126,3 +126,10 @@
   Only the gap and font size were reduced — not enough for 6 items.
 - Fix: At 480px breakpoint, hide the nav name (redundant with the h1 visible on scroll)
   and allow nav links to wrap and center. Prevents horizontal overflow on phones.
+
+2026-03-19 — Review #22: No dedicated Education section
+- Education is only mentioned in the hero subtitle (PhD) and buried in a bio paragraph
+  (B.A.Sc.). Every academic CV has a standalone Education section — hiring committees
+  scan for it immediately to verify degrees, institutions, and timelines.
+- Fix: Added Education section between Experience and Contact with both degrees,
+  institutions, dates, and the UofT thesis title. Owner should verify dates.
