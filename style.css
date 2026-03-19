@@ -63,7 +63,7 @@ a:hover {
 }
 
 /* ===== Navigation ===== */
-nav {
+header {
   position: fixed;
   top: 0;
   left: 0;
@@ -508,7 +508,7 @@ footer {
 
 /* ===== Print ===== */
 @media print {
-  nav, .skip-link {
+  header, .skip-link {
     display: none;
   }
 

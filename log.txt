@@ -250,3 +250,10 @@
 - Fix: Sharpened to "Transformer-based inference of bifurcation diagrams from
   sparse, noisy trajectories" — matches the published work. Still marked as
   working title; owner should update with the final title.
+
+2026-03-19 — Review #40: No <header> element — incomplete landmark set
+- Page had <nav>, <main>, and <footer> but no <header>. Screen readers listing
+  landmarks showed "navigation", "main", "contentinfo" but no "banner" role.
+  Accessibility audits flag this as an incomplete landmark structure.
+- Fix: Wrapped nav in <header> and added aria-label="Main" to the nav. Moved
+  fixed positioning from nav to header in CSS. Updated print stylesheet.
