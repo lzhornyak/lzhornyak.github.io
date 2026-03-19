@@ -556,3 +556,11 @@
 - Fix: Added a subtle box-shadow (0 4px 20px rgba(0,0,0,0.1)) to the hero photo.
   Dark mode already had a border from an earlier review; this complements it in
   light mode.
+
+2026-03-19 — Review #82: Contact section is visually the weakest call-to-action
+- The contact section is the page's final CTA — where an interested employer
+  decides to reach out. But it's a single grey sentence under a heading, visually
+  weaker than every other section. Feels like an afterthought, not an invitation.
+- Fix: Wrapped in a card treatment (surface background, border, rounded corners,
+  centered text, slightly larger font) matching the research card style. Makes it
+  feel like a purposeful closing statement rather than leftover content.

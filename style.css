@@ -458,10 +458,18 @@ main {
 }
 
 /* ===== Contact ===== */
+.contact-info {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 28px 24px;
+  text-align: center;
+}
+
 .contact-info > p {
-  font-size: 1rem;
-  color: var(--color-text-secondary);
-  margin-bottom: 24px;
+  font-size: 1.05rem;
+  color: var(--color-text);
+  margin: 0;
 }
 
 /* ===== Footer ===== */
