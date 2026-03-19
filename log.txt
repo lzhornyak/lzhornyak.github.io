@@ -138,3 +138,9 @@
 - Same issue as Review #11 (Research) — new section added with no nav link.
   An employer scanning the nav for "Education" can't find it.
 - Fix: Added "Education" link between Experience and Contact in the nav bar.
+
+2026-03-19 — Review #24: Hero bio duplicates Education section content
+- Second bio paragraph described the UofT thesis verbatim — same info now lives in
+  the Education section, making the hero feel repetitive.
+- Fix: Replaced the backward-looking UofT paragraph with a forward-looking research
+  vision statement about bridging dynamical systems theory and robotic applications.
