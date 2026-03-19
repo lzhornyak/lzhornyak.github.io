@@ -207,3 +207,10 @@
   looks broken. It also behaves inconsistently with every other nav link that
   uses proper #section anchors with smooth scrolling.
 - Fix: Changed href="#" to href="#about" for consistent behavior.
+
+2026-03-19 — Review #34: Hero photo causes layout shift (no width/height)
+- The <img> tag had no width or height attributes, so the browser reserved zero
+  space until the image loaded, causing visible layout shift (poor CLS score).
+  Core Web Vitals affect search ranking — matters for employer discoverability.
+- Fix: Added width="200" height="240" matching the CSS display size so the
+  browser reserves the correct space before the image loads.
