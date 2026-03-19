@@ -464,3 +464,10 @@
   reading those sections who wants to learn about the advisor has to scroll back up.
 - Fix: Linked the advisor name to her GRASP faculty page in both the Experience
   and Education sections, matching the hero.
+
+2026-03-19 — Review #70: University of Toronto not linked in Education section
+- Every institution on the page is linked (UPenn via advisor, GRASP Lab) except
+  UofT in the B.A.Sc. entry — plain text. An employer can't click through to
+  verify the program or learn about Engineering Science.
+- Fix: Linked to the UofT Engineering Science program page and added the program
+  name for specificity.
