@@ -72,3 +72,7 @@
 - No indication of when the site was last refreshed. An employer can't tell if
   the content is current or years out of date.
 - Fix: Added "Last updated March 2026" to the footer with subtle styling.
+
+2026-03-19 — Review #13: No favicon — browser tab shows generic blank icon
+- Missing favicon makes the site look unfinished in browser tabs and bookmarks.
+- Fix: Added an SVG favicon with "LZ" initials in the site's accent color (#4361ee).
