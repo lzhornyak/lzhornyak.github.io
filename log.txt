@@ -541,3 +541,10 @@
 - Fix: Styled pub-year as small chip badges with accent-light background, padding,
   and border-radius. Creates a stronger visual anchor for each publication entry
   and better timeline scanning.
+
+2026-03-19 — Review #80: Tools line is a plain comma-separated string
+- The tools list is visually the weakest element in the Research section — flat
+  text between styled cards and chip badges. Industry employers scan for specific
+  technologies; a comma-separated list makes them work harder.
+- Fix: Styled each tool as an individual pill tag (matching pub-links style) with
+  accent-light background. Each technology is now instantly scannable.
