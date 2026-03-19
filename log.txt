@@ -479,3 +479,9 @@
 - Fix: Rewrote GRA description to focus on process (experiments, pipelines,
   cross-disciplinary collaboration) rather than restating the research result
   already covered in the card above.
+
+2026-03-19 — Review #72: Intel description repeats "Programmable Solutions Group"
+- The team name appears in both the org line and the end of the description.
+  Reads as copy-paste redundancy.
+- Fix: Removed "for the Programmable Solutions Group" from the description since
+  it's already in the org line directly above.
