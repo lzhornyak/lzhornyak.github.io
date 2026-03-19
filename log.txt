@@ -175,3 +175,10 @@
 - Fix: Added @media print rules: hide nav and skip-link, remove card shadows,
   prevent page breaks inside entries, and append URLs after links so they're
   visible on paper. Buttons suppress URL display to avoid clutter.
+
+2026-03-19 — Review #29: No entry for current role as graduate researcher
+- The most recent experience listed is a TA ending in 2023 and internships from
+  2018–2019. An employer asks: "What are you doing NOW?" The candidate's primary
+  occupation — PhD research at GRASP Lab — has no entry. Every academic CV lists this.
+- Fix: Added "Graduate Research Assistant" as a Research category at the top of
+  Experience, with advisor, lab, and summary of research output.
