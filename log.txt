@@ -280,3 +280,9 @@
 - Fix: Switched research cards to past tense ("Developed", "Optimized", "Exposed")
   to project confidence in accomplished work. Removed "(working title)" from
   dissertation. Owner should revert if the title isn't finalized.
+
+2026-03-19 — Review #44: No theme-color meta tag for mobile browsers
+- On Android Chrome and iOS Safari, the browser chrome (address bar, status bar)
+  defaults to white/grey rather than matching the site. Looks unpolished on mobile.
+- Fix: Added <meta name="theme-color" content="#ffffff"> matching the site's
+  light background, so the browser chrome blends seamlessly on mobile.
