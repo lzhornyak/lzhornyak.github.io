@@ -319,3 +319,11 @@
   the meta description and og:description, which still said "PhD student". An
   employer seeing "Candidate" on the page but "student" in a link preview notices.
 - Fix: Updated both meta description and og:description to "PhD candidate".
+
+2026-03-19 — Review #50: No dark mode — bright white page ignores system preference
+- Many professionals use dark mode. The site was always bright white regardless of
+  system preference, causing eye strain and looking out of place alongside dark-mode
+  apps. CSS variables made adding dark mode straightforward.
+- Fix: Added prefers-color-scheme: dark media query overriding all color variables.
+  Updated header background for dark mode. Added dark theme-color meta tag.
+  Accent colors lightened slightly for contrast on dark backgrounds.
