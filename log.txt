@@ -76,3 +76,8 @@
 2026-03-19 — Review #13: No favicon — browser tab shows generic blank icon
 - Missing favicon makes the site look unfinished in browser tabs and bookmarks.
 - Fix: Added an SVG favicon with "LZ" initials in the site's accent color (#4361ee).
+
+2026-03-19 — Review #14: GRASP Lab affiliation in contact section is not a link
+- The contact section mentions "GRASP Lab, University of Pennsylvania" as plain text.
+  An academic employer would expect to click through to the lab page.
+- Fix: Made "GRASP Lab, University of Pennsylvania" a link to grasp.upenn.edu.
