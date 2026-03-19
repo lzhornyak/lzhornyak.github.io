@@ -1,0 +1,5 @@
+2026-03-19 — Review #1: Broken/placeholder links hurt credibility
+- Google Scholar button links to "citations?user=YOUR_ID" — a placeholder, not a real profile.
+- GitHub button links to generic "https://github.com/" with no username.
+- Fix: Remove Google Scholar and GitHub buttons until real URLs are available.
+  A hiring committee clicking these would see broken/generic pages, suggesting carelessness.
