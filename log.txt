@@ -3,3 +3,9 @@
 - GitHub button links to generic "https://github.com/" with no username.
 - Fix: Remove Google Scholar and GitHub buttons until real URLs are available.
   A hiring committee clicking these would see broken/generic pages, suggesting carelessness.
+  (Later resolved: real profile URLs added.)
+
+2026-03-19 — Review #2: Vague research descriptions lack specificity
+- Research cards used abstract language without concrete outcomes or methods.
+- An employer wants to know what you built and what it achieved, not just the topic area.
+- Fix: Rewrote each research card to specify the method, contribution, and application.
