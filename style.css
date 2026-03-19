@@ -341,10 +341,14 @@ main {
 
 .pub-details h3 a {
   color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-border);
+  text-underline-offset: 3px;
 }
 
 .pub-details h3 a:hover {
   color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
 }
 
 .pub-authors {

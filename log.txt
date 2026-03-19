@@ -502,3 +502,11 @@
 - Fix: In print mode, .highlight gets font-weight 700 (proper bold) with no
   background. Added URL suppression for pub titles, org links, affiliation,
   and footer links — only inline text links show their URLs when printed.
+
+2026-03-19 — Review #75: Publication title links have no visual affordance on mobile
+- Title links use color: var(--color-text) with accent only on hover. On
+  mobile/touch devices there's no hover — titles look identical to plain text.
+  An employer on a phone would never discover they're clickable.
+- Fix: Added a subtle underline in the border color (light grey) with
+  text-underline-offset for breathing room. On hover, underline changes to
+  accent color. Signals clickability without disrupting the heading style.
