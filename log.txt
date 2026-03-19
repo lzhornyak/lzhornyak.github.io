@@ -67,3 +67,8 @@
 - Nav links go About → Publications → Experience → Contact, skipping the Research
   section entirely. An employer scanning the nav would never know it exists.
 - Fix: Added "Research" link between About and Publications in the nav bar.
+
+2026-03-19 — Review #12: No "last updated" date — site could look stale
+- No indication of when the site was last refreshed. An employer can't tell if
+  the content is current or years out of date.
+- Fix: Added "Last updated March 2026" to the footer with subtle styling.

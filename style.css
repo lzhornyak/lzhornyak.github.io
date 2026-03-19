@@ -433,6 +433,11 @@ footer {
   color: var(--color-text-secondary);
 }
 
+.last-updated {
+  font-size: 0.75rem;
+  margin-top: 4px;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
   .hero-content {
