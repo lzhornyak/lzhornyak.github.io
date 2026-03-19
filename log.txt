@@ -493,3 +493,12 @@
 - Fix: Trimmed to 126 characters by removing redundant "Academic website of" and
   "Computer and Information Science". Research keywords now guaranteed to appear
   in full in search results.
+
+2026-03-19 — Review #74: Print stylesheet breaks highlights and shows noisy URLs
+- Browsers strip background colors when printing, so .highlight keywords lose their
+  accent background and display at font-weight 500 — less bold than normal <strong>.
+  Also, the URL-append rule was adding long DOI URLs after publication titles,
+  advisor links, and footer links, making printed output cluttered.
+- Fix: In print mode, .highlight gets font-weight 700 (proper bold) with no
+  background. Added URL suppression for pub titles, org links, affiliation,
+  and footer links — only inline text links show their URLs when printed.

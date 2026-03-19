@@ -596,8 +596,15 @@ footer {
   }
 
   .btn::after, .btn-outline::after,
-  .pub-links a::after, .nav-links a::after {
+  .pub-links a::after, .nav-links a::after,
+  .pub-details h3 a::after, .exp-org a::after,
+  .affiliation a::after, footer a::after {
     content: none;
+  }
+
+  .highlight {
+    background: none;
+    font-weight: 700;
   }
 
   .hero-links .btn {
