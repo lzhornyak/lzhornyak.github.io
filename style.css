@@ -506,8 +506,18 @@ footer {
 }
 
 @media (max-width: 480px) {
+  .nav-name {
+    display: none;
+  }
+
+  .nav-inner {
+    justify-content: center;
+  }
+
   .nav-links {
     gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   body {

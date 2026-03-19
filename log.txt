@@ -120,3 +120,9 @@
   to robotics employers — but says nothing about what was done.
 - Fix: Added description covering control subsystem leadership, locomotion, balance,
   and behavior planning. Owner should add specifics (competitions attended, results).
+
+2026-03-19 — Review #21: Navigation overflows on mobile phones
+- Five nav links plus "Lyra Zhornyak" in a single flex row overflows on ~375px screens.
+  Only the gap and font size were reduced — not enough for 6 items.
+- Fix: At 480px breakpoint, hide the nav name (redundant with the h1 visible on scroll)
+  and allow nav links to wrap and center. Prevents horizontal overflow on phones.
