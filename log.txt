@@ -54,3 +54,11 @@
 - Sharing the site on LinkedIn, Slack, or Twitter shows a bare link with no preview image,
   title, or description. Looks unfinished when circulated by a recruiter.
 - Fix: Added og:title, og:description, og:image, og:url, og:type, and twitter:card meta tags.
+
+2026-03-19 — Review #10: Awards lack selectivity context, reviewer entry too vague
+- Awards listed bare with no indication of competitiveness or prestige.
+  Non-Canadian employers won't know what Mitacs Globalink or NSERC USRA mean.
+- Reviewer entry said "Ongoing" with no date range and generic title.
+- Fix: Added brief context for each award (competitive international fellowship,
+  national peer-reviewed grant). Changed reviewer to "Peer Reviewer" with date
+  range "2023–Present" and added RA-L abbreviation for recognition.
