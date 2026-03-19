@@ -133,3 +133,8 @@
   scan for it immediately to verify degrees, institutions, and timelines.
 - Fix: Added Education section between Experience and Contact with both degrees,
   institutions, dates, and the UofT thesis title. Owner should verify dates.
+
+2026-03-19 — Review #23: Education section missing from navigation
+- Same issue as Review #11 (Research) — new section added with no nav link.
+  An employer scanning the nav for "Education" can't find it.
+- Fix: Added "Education" link between Experience and Contact in the nav bar.
