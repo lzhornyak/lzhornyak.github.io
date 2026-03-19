@@ -429,3 +429,10 @@
   and potentially being served by Jekyll on the live site.
 - Fix: Added .gitignore to exclude node_modules/, package.json, and
   package-lock.json from the repository.
+
+2026-03-19 — Review #65: Inconsistent punctuation and capitalization in Awards
+- Award descriptions lacked trailing periods while all other experience entries had
+  them. Project titles used Title Case ("Vision Based Tracking") while the rest of
+  the page uses sentence case. Small inconsistencies that signal lack of proofreading.
+- Fix: Added trailing periods, normalized to sentence case, and added "Project:"
+  prefix to clarify the relationship between the award and the work.
