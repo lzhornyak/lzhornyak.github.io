@@ -16,3 +16,10 @@
 - Employers scanning quickly can't distinguish this from a toy project vs. production work.
 - Fix: Added context (why the work mattered, what platform/domain) to each experience entry
   without fabricating metrics. Real numbers should be added by the site owner.
+
+2026-03-19 — Review #4: Publications missing volume/issue/page details
+- Venue lines just showed the journal name with no volume, issue, or page numbers.
+- Incomplete citations look sloppy to academics and make papers harder to locate.
+- Fix: Added volume/issue/page numbers to all three publications.
+  (Chaos Vol. 34 No. 5; CVPR pp. 21975–21984; Robotica Vol. 38 No. 3 pp. 460–475.)
+  Owner should double-check these details match the published versions.
