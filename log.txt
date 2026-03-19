@@ -404,3 +404,12 @@
 - Fix: Wrapped each publication h3 in a link to the paper's primary URL (DOI or
   CVF). Styled to inherit heading color with accent on hover, so they look clean
   but signal clickability.
+
+2026-03-19 — Review #62: OG image is a portrait photo — bad social previews
+- The og:image was the 400x480 portrait photo. Social platforms (LinkedIn, Slack,
+  Twitter) expect ~1200x630 landscape images. A portrait photo gets awkwardly
+  cropped or letterboxed in link previews — the first thing a recruiter sees when
+  the link is shared in a hiring channel.
+- Fix: Generated a 1200x630 OG banner with name, title, university, and research
+  areas on a branded gradient. Added og:image:width/height hints. Upgraded
+  twitter:card from "summary" to "summary_large_image" for larger previews.
