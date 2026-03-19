@@ -242,3 +242,11 @@
 - Fix: Added sitemap.xml with the page URL and last-modified date, and robots.txt
   that allows all crawlers and points to the sitemap. Completes the SEO setup
   alongside canonical URL, OG tags, and JSON-LD from prior reviews.
+
+2026-03-19 — Review #39: Dissertation title is too generic
+- "Data-driven methods for inferring and predicting nonlinear dynamical systems"
+  could describe hundreds of dissertations. Creates dissonance with the rest of
+  the page which is highly specific (30 trajectories, 2x F1, etc.).
+- Fix: Sharpened to "Transformer-based inference of bifurcation diagrams from
+  sparse, noisy trajectories" — matches the published work. Still marked as
+  working title; owner should update with the final title.
