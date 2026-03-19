@@ -106,3 +106,11 @@
   critical evaluation criterion — a bare title looks like padding.
 - Fix: Added brief description noting graduate-level course and core TA duties.
   Owner should expand with specifics (class size, any lectures given, etc.).
+
+2026-03-19 — Review #19: CVPR paper DOI points to arXiv, not the proceedings
+- The "DOI" link for the CVPR paper used the arXiv DOI (10.48550/arXiv.2207.01614),
+  which resolves to arXiv, not the IEEE/CVF proceedings. An academic would notice this
+  makes the paper look like a preprint rather than a peer-reviewed publication.
+- Fix: Replaced with a CVF Open Access link (the canonical free proceedings version),
+  a separate arXiv link, and the PDF link. The IEEE Xplore DOI could not be confirmed
+  programmatically — owner should add it if known.
