@@ -442,3 +442,11 @@
   title and journal list. Looks unfinished compared to the rest of the section.
 - Fix: Added brief description of reviewing scope (nonlinear dynamics, robotic
   systems, chaos theory). Owner should add specifics if available.
+
+2026-03-19 — Review #67: Robotics card weaker than the other two research cards
+- Dynamical Systems and CV cards both lead with strong verbs and tie to publications.
+  The Robotics card had a passive second sentence ("Optimal gaits conform to...")
+  and no publication reference, making it feel weaker by comparison.
+- Fix: Reworded to active voice ("Found that optimal gaits closely match biological
+  feline locomotion patterns, validating the approach") and added "(Robotica 2020)"
+  to match the pattern of the other cards.
