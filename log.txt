@@ -264,3 +264,10 @@
   ("data-driven methods bridging theory and applications"). Reads as padding.
 - Fix: Merged into a single tighter paragraph, incorporating "data-driven methods"
   into the specific description. Removes redundancy, sharpens the hero.
+
+2026-03-19 — Review #42: Research card emoji icons render differently per platform
+- Icons used emoji characters (⚙ 🤖 👁) that render as colorful platform-specific
+  art on Windows, Mac, Linux, iOS — the visual impression is inconsistent and
+  unpredictable. A hiring manager on Windows sees a different page than on Mac.
+- Fix: Replaced with inline SVGs (gear/sun for dynamical systems, robot face for
+  robotics, eye for vision) styled in the accent color. Renders identically everywhere.
