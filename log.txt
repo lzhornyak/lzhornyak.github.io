@@ -298,3 +298,10 @@
   (2017–2019) — middle, newest, oldest. Employers expect most recent first.
 - Fix: Reordered to reverse chronological: Peer Reviewer (2023–Present),
   TA (2021–2023), Control Team Lead (2017–2019).
+
+2026-03-19 — Review #47: GRA description is redundant with Publications section
+- "Published in Chaos, CVPR, and Robotica" just re-lists what the employer read
+  moments before in the Publications section. The description should focus on
+  day-to-day work and skills, not repeat the publication list.
+- Fix: Rewrote to describe actual research activities: designing neural network
+  pipelines, running experiments, cross-disciplinary collaboration.
