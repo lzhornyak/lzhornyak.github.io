@@ -286,3 +286,9 @@
   defaults to white/grey rather than matching the site. Looks unpolished on mobile.
 - Fix: Added <meta name="theme-color" content="#ffffff"> matching the site's
   light background, so the browser chrome blends seamlessly on mobile.
+
+2026-03-19 — Review #45: No apple-touch-icon for iOS home screen
+- Saving the site to an iPhone home screen shows an ugly mini-screenshot instead of
+  a proper icon. iOS doesn't use SVG favicons for this — it needs a 180x180 PNG.
+- Fix: Generated apple-touch-icon.png (LZ initials on accent blue, matching the
+  SVG favicon design) and linked it in the head.
