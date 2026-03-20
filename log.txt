@@ -564,3 +564,11 @@
 - Fix: Wrapped in a card treatment (surface background, border, rounded corners,
   centered text, slightly larger font) matching the research card style. Makes it
   feel like a purposeful closing statement rather than leftover content.
+
+2026-03-20 — Review #83: Subtitle shows department name, not research identity
+- "PhD Candidate in Computer and Information Science" is an administrative label.
+  An employer scanning the page sees a generic title before scrolling to the actual
+  research areas. Competitive academic sites signal the specialty immediately.
+- Fix: Changed to "PhD Candidate · Dynamical Systems, Robotics & Machine Learning"
+  — the research identity is visible before the employer reads a single paragraph.
+  Department info remains in the affiliation line and education section.
