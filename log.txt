@@ -624,3 +624,11 @@
 - Fix: Combined into a single flowing sentence with three parallel gerund phrases:
   "Designing..., building..., and collaborating..." — grammatically parallel and
   consistent as a description of ongoing work.
+
+2026-03-20 — Review #90: Contact email buried as inline text link
+- The email was hidden mid-sentence ("Reach me at zhornyak@...") in the contact
+  CTA card. An employer who decides to reach out has to read the sentence, find
+  the email, and click — too much friction for the most important action on the page.
+- Fix: Separated the availability statement from the email. The email is now a
+  prominent standalone button below the text, matching the hero Email button style.
+  One clear call-to-action that's impossible to miss.
