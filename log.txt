@@ -632,3 +632,11 @@
 - Fix: Separated the availability statement from the email. The email is now a
   prominent standalone button below the text, matching the hero Email button style.
   One clear call-to-action that's impossible to miss.
+
+2026-03-20 — Review #91: "Dissertation in progress" is a meaningless placeholder
+- Every PhD candidate has a dissertation in progress — the line adds zero
+  information. The B.A.Sc. entry has a specific thesis title while the PhD entry
+  has a three-word placeholder. Creates an asymmetry and looks unfinished.
+- Fix: Added the topic area: "Dissertation in progress on data-driven approaches
+  to nonlinear dynamical systems." Vague enough to not reveal unpublished work
+  but specific enough to connect the PhD to the research shown above.
