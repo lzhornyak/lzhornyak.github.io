@@ -572,3 +572,11 @@
 - Fix: Changed to "PhD Candidate · Dynamical Systems, Robotics & Machine Learning"
   — the research identity is visible before the employer reads a single paragraph.
   Department info remains in the affiliation line and education section.
+
+2026-03-20 — Review #84: OG description still leads with department name
+- After changing the subtitle to research areas (Review #83), the og:description
+  still said "PhD candidate in Computer and Information Science at UPenn" — the
+  generic label shows up in LinkedIn/Slack link previews.
+- Fix: Rewrote to lead with research identity and added availability signal:
+  "PhD candidate at UPenn researching dynamical systems, robotics, and machine
+  learning. Open to research and industry opportunities."
