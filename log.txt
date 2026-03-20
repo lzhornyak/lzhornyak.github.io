@@ -930,3 +930,10 @@
 - Fix: Shortened date to "2020 – 2027" and moved the detail to the heading:
   "Ph.D. in Computer and Information Science (expected Spring 2027)". Keeps all
   information visible while maintaining consistent date column widths.
+
+2026-03-20 — Review #128: Header backdrop-filter missing -webkit- prefix for Safari
+- backdrop-filter: blur(12px) creates the frosted glass nav effect, but Safari
+  (macOS and iOS) requires -webkit-backdrop-filter. Without it, Safari users see
+  a flat semi-transparent bar instead of the polished blur. Safari is the default
+  browser for Mac-heavy academic departments.
+- Fix: Added -webkit-backdrop-filter: blur(12px) before the unprefixed property.
