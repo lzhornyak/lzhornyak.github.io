@@ -687,3 +687,12 @@
 - Fix: Moved Education before Experience in both the nav and page content. Flow is
   now: Research → Publications → Education → Experience → Contact. Establishes
   "who she is" before "what she's done."
+
+2026-03-20 — Review #98: Skills don't match CV — wrong grouping and missing items
+- The website lumped all skills under a single "Tools:" label while the CV groups
+  them into Languages, Frameworks, and Tools. Also dropped Jupyter and Linux, and
+  split C/C++ into separate tags. An employer comparing the CV to the website
+  sees inconsistencies.
+- Fix: Restructured to match the CV's three categories (Languages, Frameworks,
+  Tools) with the same items in the same groupings. Restored Jupyter and Linux.
+  Merged C and C++ into "C/C++" matching the CV.
