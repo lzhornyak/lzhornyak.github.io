@@ -668,7 +668,7 @@ footer {
   .affiliation a::after, footer a::after,
   .research-card a::after, .contact-btn::after,
   .pub-footer a::after {
-    content: none;
+    content: none !important;
   }
 
   .highlight {

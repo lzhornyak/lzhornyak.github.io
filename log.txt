@@ -977,3 +977,14 @@
   other description paragraph. A regression from the previous review.
 - Fix: Changed selector from p:last-child to p:last-of-type, which selects the
   last <p> regardless of non-<p> siblings after it.
+
+2026-03-20 — Review #134: Print URL suppression broken by CSS specificity
+- a[href]::after has specificity (0,1,2) due to the [href] attribute selector.
+  But .btn::after (0,1,1), .contact-btn::after (0,1,1), and footer a::after
+  (0,0,3) all have LOWER specificity. The URL-append rule wins — hero buttons
+  would print full URLs like "Email (mailto:zhornyak@seas.upenn.edu)" and the
+  footer GRASP link would show its full URL. The suppression never actually worked
+  for these elements.
+- Fix: Added !important to the content:none suppression rule. This guarantees it
+  wins regardless of specificity, correctly suppressing URLs on all designated
+  elements.
