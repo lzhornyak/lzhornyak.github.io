@@ -852,3 +852,12 @@
 - Fix: Override --nav-height to 100px at the 480px breakpoint. All calc()
   expressions that reference it automatically adjust: scroll-padding becomes
   120px and hero padding becomes 160px.
+
+2026-03-20 — Review #118: Bio's third highlight is weaker than the other two
+- "transformer-based bifurcation analysis" and "quadruped robot locomotion" both
+  describe building/solving. But "instance segmentation evaluation" describes
+  measuring — the meta-level activity, not the contribution (proposing Semantic
+  Sorting + NMS). An employer reads two builders and one evaluator.
+- Fix: Changed to "instance segmentation methods" — positions the work as
+  developing methods, not just evaluating metrics. Matches the action-oriented
+  framing of the other two highlights.
