@@ -662,7 +662,7 @@ footer {
     break-inside: avoid;
   }
 
-  .exp-category {
+  .section h2, .exp-category {
     break-after: avoid;
   }
 

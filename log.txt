@@ -1040,3 +1040,9 @@
   entries on the next page — a classic widowed heading.
 - Fix: Added break-after: avoid to .exp-category. Keeps each heading attached
   to its first entry. More targeted than break-inside on the whole group.
+
+2026-03-20 — Review #141: Section h2 headings can also be orphaned in print
+- Review #140 fixed .exp-category orphaning but the same issue applies to section
+  h2 headings — "Publications", "Education", etc. could end up alone at the
+  bottom of a printed page with their content on the next page.
+- Fix: Added .section h2 to the break-after: avoid rule alongside .exp-category.
