@@ -794,3 +794,12 @@
   .tools-line. The 28px override never applied; all rows had 10px.
 - Fix: Changed to .research-grid + .tools-line (adjacent sibling selector), which
   correctly targets only the first .tools-line directly after the research grid.
+
+2026-03-20 — Review #111: Dark mode borders too subtle — outline buttons invisible
+- --color-border in dark mode was #2a2a3e (dark grey). Against the #121220 background,
+  the 1.5px outline button borders were barely visible — Google Scholar, GitHub,
+  ORCID, and CV buttons looked like floating text. Research card borders and section
+  dividers had the same problem.
+- Fix: Lightened dark mode --color-border from #2a2a3e to #3a3a52. All borders
+  are now visible without being harsh. Affects buttons, cards, section dividers,
+  and the hero photo border consistently.
