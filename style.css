@@ -662,6 +662,10 @@ footer {
     break-inside: avoid;
   }
 
+  .exp-category {
+    break-after: avoid;
+  }
+
   a[href]::after {
     content: " (" attr(href) ")";
     font-size: 0.75rem;

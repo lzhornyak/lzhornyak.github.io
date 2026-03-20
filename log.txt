@@ -1032,3 +1032,11 @@
 - Fix: Changed to "improve object detection accuracy" — concrete outcome that
   matches the CVPR paper's contribution (better detection with fewer duplicates)
   and parallels the other two highlights.
+
+2026-03-20 — Review #140: Category headings can be orphaned when printing
+- The print stylesheet prevents breaks inside cards, pubs, and items — but
+  .exp-category headings ("Industry", "Teaching & Service") have no break
+  protection. A heading could end up alone at the bottom of a page with its
+  entries on the next page — a classic widowed heading.
+- Fix: Added break-after: avoid to .exp-category. Keeps each heading attached
+  to its first entry. More targeted than break-inside on the whole group.
