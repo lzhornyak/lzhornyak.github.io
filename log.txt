@@ -1023,3 +1023,12 @@
   physical systems, optimize robot locomotion, and improve computer vision
   evaluation." Technical depth lives in the research cards; the bio now works
   for ANY employer at first glance.
+
+2026-03-20 — Review #139: Third bio highlight is weaker than the first two
+- "predict critical transitions in physical systems" and "optimize robot
+  locomotion" are concrete (action + outcome). But "improve computer vision
+  evaluation" ends with an abstract noun — "evaluation" is an activity, not a
+  result. A recruiter can't tell what was actually improved.
+- Fix: Changed to "improve object detection accuracy" — concrete outcome that
+  matches the CVPR paper's contribution (better detection with fewer duplicates)
+  and parallels the other two highlights.
