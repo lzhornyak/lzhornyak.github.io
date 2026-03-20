@@ -769,3 +769,11 @@
   Also added .contact-btn to suppression for completeness.
 - Fix: Added .research-card a::after and .contact-btn::after to the print
   content:none rule.
+
+2026-03-20 — Review #108: Bio mentions two of three research areas, omits CV work
+- The subtitle lists three areas (Dynamical Systems, Robotics & Computer Vision)
+  but the bio only highlights two applications (bifurcation analysis, gait
+  optimization). The CVPR computer vision work is completely absent from the bio.
+  An employer reading the bio gets no hint of the third research area.
+- Fix: Added "evaluation of instance segmentation" as a third highlighted
+  application, completing the connection between subtitle and bio.
