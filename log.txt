@@ -915,3 +915,10 @@
 - Fix: Tightened to "Demonstrated that Average Precision (AP) fails to penalize
   duplicate predictions in instance segmentation." Moves the domain to the end
   where it reads naturally. "Demonstrated" is stronger than "Showed."
+
+2026-03-20 — Review #126: Scholar link in pub-footer prints a long URL
+- The print URL-append rule applies to all links, and we suppress specific ones.
+  But .pub-footer a wasn't in the suppression list. When printed, "see Google
+  Scholar (https://scholar.google.com/citations?user=IO8BmHUAAAAJ)" would appear
+  — a 70-char URL cluttering the clean publication list.
+- Fix: Added .pub-footer a::after to the print content:none rule.

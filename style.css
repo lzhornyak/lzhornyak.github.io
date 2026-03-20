@@ -657,7 +657,8 @@ footer {
   .pub-links a::after, .nav-links a::after,
   .pub-details h3 a::after, .exp-org a::after,
   .affiliation a::after, footer a::after,
-  .research-card a::after, .contact-btn::after {
+  .research-card a::after, .contact-btn::after,
+  .pub-footer a::after {
     content: none;
   }
 
