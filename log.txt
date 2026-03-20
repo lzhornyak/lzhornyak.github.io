@@ -657,3 +657,9 @@
 - Fix: Changed subtitle to use color-text (primary text color) and font-weight 500.
   Creates clear visual hierarchy: h1 (gradient) → subtitle (medium, dark) →
   affiliation (light grey) → bio paragraph.
+
+2026-03-20 — Review #94: Inline style on contact button breaks conventions
+- The contact email button was the only element using an inline style attribute
+  (style="margin-top: 16px;"). Every other style uses CSS classes. Inline styles
+  can't be overridden by media queries and break separation of concerns.
+- Fix: Replaced with a .contact-btn class in the stylesheet.

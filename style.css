@@ -473,6 +473,10 @@ main {
   margin: 0;
 }
 
+.contact-btn {
+  margin-top: 16px;
+}
+
 /* ===== Footer ===== */
 footer {
   max-width: var(--max-width);
