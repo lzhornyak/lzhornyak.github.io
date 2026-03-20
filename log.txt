@@ -615,3 +615,12 @@
   clearly corresponds to this paper. Only publication without a code link.
 - Fix: Added "Code" pill link to github.com/lzhornyak/gait-modelling on the
   Robotica publication entry. All first-author papers now link to their code.
+
+2026-03-20 — Review #89: GRA description has sentence fragment and awkward comma
+- "Building neural network pipelines for time-series prediction, and collaborating
+  across..." was a headless sentence fragment with an awkward comma before "and".
+  Past roles use complete sentences but this current role used fragments, creating
+  an inconsistency a careful reader would notice.
+- Fix: Combined into a single flowing sentence with three parallel gerund phrases:
+  "Designing..., building..., and collaborating..." — grammatically parallel and
+  consistent as a description of ongoing work.
