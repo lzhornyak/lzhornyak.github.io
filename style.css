@@ -682,7 +682,7 @@ footer {
   }
 
   .hero-email::after {
-    content: " (zhornyak@seas.upenn.edu)";
+    content: " (zhornyak@seas.upenn.edu)" !important;
     font-weight: 400;
   }
 

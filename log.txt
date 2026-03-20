@@ -988,3 +988,12 @@
 - Fix: Added !important to the content:none suppression rule. This guarantees it
   wins regardless of specificity, correctly suppressing URLs on all designated
   elements.
+
+2026-03-20 — Review #135: Review #134's !important broke hero email print display
+- The !important on .btn::after { content: none } now overrides .hero-email::after
+  { content: "..." } because the element has both classes (class="btn hero-email").
+  !important always wins over non-!important. The email address from Review #131
+  became invisible again in print — a cascading regression.
+- Fix: Added !important to .hero-email::after content rule. When two !important
+  rules compete, source order wins — .hero-email comes after .btn in the file,
+  so it correctly shows the email address.
