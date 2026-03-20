@@ -678,3 +678,12 @@
   Search engines use this to decide re-crawl priority — stale date means cached
   versions of the old page served longer than necessary.
 - Fix: Updated lastmod to 2026-03-20.
+
+2026-03-20 — Review #97: Education appears after Experience — reversed narrative
+- The page flow was Research → Publications → Experience → Education → Contact.
+  An employer reads about the GRA role (2020–Present) before learning the candidate
+  is a PhD student. On academic CVs for current students, Education comes first to
+  establish credentials before showing how they're applied.
+- Fix: Moved Education before Experience in both the nav and page content. Flow is
+  now: Research → Publications → Education → Experience → Contact. Establishes
+  "who she is" before "what she's done."
