@@ -543,12 +543,19 @@ footer {
 }
 
 @media (max-width: 480px) {
+  header {
+    height: auto;
+    min-height: var(--nav-height);
+    padding: 10px 0;
+  }
+
   .nav-name {
     display: none;
   }
 
   .nav-inner {
     justify-content: center;
+    height: auto;
   }
 
   .nav-links {

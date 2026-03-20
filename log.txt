@@ -835,3 +835,11 @@
   Experience. Added nav link. Changed h4 to h3 for proper heading hierarchy as a
   standalone section. Awards are now immediately visible to hiring committees
   scanning the page structure.
+
+2026-03-20 — Review #116: Mobile nav overflows with 7 links after Awards promotion
+- Adding Awards as a standalone section brought the nav to 7 links. On a 375px
+  phone, these wrap to 3 rows but the header has a fixed 60px height — the third
+  row of links bleeds below the nav bar, overlapping hero content unblurred.
+- Fix: At the 480px breakpoint, changed header from fixed height to height:auto
+  with min-height and padding. The nav now grows to accommodate wrapped links
+  on small screens.
