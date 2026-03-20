@@ -777,3 +777,12 @@
   An employer reading the bio gets no hint of the third research area.
 - Fix: Added "evaluation of instance segmentation" as a third highlighted
   application, completing the connection between subtitle and bio.
+
+2026-03-20 — Review #109: Bio uses broken "from X to Y and Z" grammar
+- "ranging from X to Y and Z" is awkward — "from...to" implies two endpoints,
+  and appending a third item breaks the construction. An employer reading
+  carefully would stumble on this.
+- Fix: Restructured as a clean three-item list: "with applications in X, Y,
+  and Z." Also tightened phrasing ("quadruped robot locomotion" instead of
+  "gait optimization in quadruped robots"; "instance segmentation evaluation"
+  instead of "evaluation of instance segmentation").
