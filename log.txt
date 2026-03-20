@@ -580,3 +580,11 @@
 - Fix: Rewrote to lead with research identity and added availability signal:
   "PhD candidate at UPenn researching dynamical systems, robotics, and machine
   learning. Open to research and industry opportunities."
+
+2026-03-20 — Review #85: OG image text is stale after subtitle changes
+- The og-image.png still had "PhD Candidate in Computer and Information Science"
+  baked in from Review #62. After changing the subtitle (Review #83) and OG
+  description (Review #84), the banner shown in LinkedIn/Slack previews was
+  inconsistent with the page itself.
+- Fix: Regenerated og-image.png with updated text: research areas on their own
+  line, university on the subtitle line, and availability signal at the bottom.
