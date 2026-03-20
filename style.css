@@ -466,7 +466,7 @@ main {
   margin-bottom: 4px;
 }
 
-.exp-details > p:last-child {
+.exp-details > p:last-of-type {
   font-size: 0.9rem;
   color: var(--color-text-secondary);
 }

@@ -969,3 +969,11 @@
   Same action (download PDF), different visual treatment — inconsistent.
 - Fix: Replaced the inline [PDF] text link with a .pub-links styled pill matching
   the publication link style. Visual consistency across all downloadable PDFs.
+
+2026-03-20 — Review #133: Thesis description lost styling after Review #132
+- Adding <div class="pub-links"> after the thesis <p> meant p:last-child no
+  longer matched — the <div> is now the last child. The thesis text rendered at
+  default size (1rem) and primary color instead of 0.9rem/secondary like every
+  other description paragraph. A regression from the previous review.
+- Fix: Changed selector from p:last-child to p:last-of-type, which selects the
+  last <p> regardless of non-<p> siblings after it.
