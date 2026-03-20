@@ -729,3 +729,11 @@
 - Fix: Changed "CV" to "Vision" in the page title and OG title. Unambiguous,
   still concise (62 chars), and the full term "Computer Vision" appears in the
   subtitle and meta description.
+
+2026-03-20 — Review #103: Excessive spacing between skill category rows
+- After splitting skills into three rows (Languages, Frameworks, Tools), each had
+  28px top margin — the value designed for a single row's separation from the cards
+  above. Three rows with 28px gaps each looked like separate sections rather than
+  one cohesive skills block.
+- Fix: Reduced inter-row spacing to 10px, kept 28px only on the first row
+  (via :first-of-type) for separation from the research cards.

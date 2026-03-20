@@ -307,13 +307,17 @@ main {
 }
 
 .tools-line {
-  margin-top: 28px;
+  margin-top: 10px;
   font-size: 0.9rem;
   color: var(--color-text-secondary);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
+}
+
+.tools-line:first-of-type {
+  margin-top: 28px;
 }
 
 .tool-tag {
