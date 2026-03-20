@@ -945,3 +945,11 @@
 - Fix: Added :last-child overrides to zero out margin-bottom on the last
   .experience-group and last .exp-item. All sections now have consistent
   bottom spacing determined only by the section padding.
+
+2026-03-20 — Review #130: OG image is 93KB PNG — unnecessarily large
+- The OG banner (1200x630) was saved as PNG with alpha channel despite being a
+  solid gradient with text — no transparency needed. At 93KB, it's the largest
+  asset fetched by social crawlers when the link is shared.
+- Fix: Converted to JPEG at quality 85 — 35KB, a 63% reduction. No visible
+  quality loss for a gradient-and-text image. Updated og:image reference and
+  removed the old PNG.
