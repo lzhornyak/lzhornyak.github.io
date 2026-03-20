@@ -1013,3 +1013,13 @@
   only 6 nav links which fit alongside the name on tablet (768px).
 - Fix: Show the nav-name at 768px (slightly smaller at 0.95rem). Only hide it at
   480px where space is truly tight. Tablet users now have a home/top link.
+
+2026-03-20 — Review #138: Bio uses domain jargon that creates a speed bump
+- "transformer-based bifurcation analysis" and "instance segmentation methods"
+  are insider terms a recruiter scanning in 15 seconds can't parse. The research
+  cards below explain these with concrete outcomes, but the bio comes first and
+  creates friction. A speed-reading employer hits jargon before finding clarity.
+- Fix: Rewrote with plain-language impact: "predict critical transitions in
+  physical systems, optimize robot locomotion, and improve computer vision
+  evaluation." Technical depth lives in the research cards; the bio now works
+  for ANY employer at first glance.
