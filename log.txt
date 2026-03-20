@@ -810,3 +810,11 @@
   with no way to distinguish the heading from the photo.
 - Fix: Changed to alt="Headshot of Lyra Zhornyak" — describes both the person
   and the image type, differentiating it from the heading.
+
+2026-03-20 — Review #113: Preconnect hints placed after stylesheet — suboptimal order
+- The <link rel="preconnect"> hints for Google Fonts came after <link rel="stylesheet"
+  href="style.css">. The browser processes links sequentially — by the time it sees
+  the preconnect hints, it's already busy downloading style.css. Moving preconnect
+  before the stylesheet gives the browser a head start on DNS/TLS for Google's font
+  servers while style.css downloads in parallel.
+- Fix: Moved both preconnect hints above style.css in the <head>.
