@@ -867,3 +867,11 @@
   on March 20, a specific date better signals active maintenance. An employer
   seeing "March 20, 2026" knows the site is current; "March 2026" is ambiguous.
 - Fix: Changed to "Last updated March 20, 2026".
+
+2026-03-20 — Review #120: Dark mode tool tags and pub badges have borderline contrast
+- Accent-colored text (#6b8aff) on accent-light background (#1e2244) had only
+  4.9:1 contrast — barely passing WCAG AA. At small font sizes (0.82rem for tags,
+  0.8rem for year chips), this is uncomfortable on lower-quality screens.
+- Fix: Lightened these specific elements to #8aa4ff in dark mode (6.46:1 contrast).
+  Kept the base --color-accent unchanged for links and buttons which have adequate
+  contrast against the main background.

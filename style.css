@@ -603,6 +603,10 @@ footer {
     --color-accent-hover: #8aa4ff;
   }
 
+  .tool-tag, .pub-year, .pub-links a {
+    color: #8aa4ff;
+  }
+
   header {
     background: rgba(18, 18, 32, 0.92);
   }
