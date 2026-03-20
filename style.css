@@ -193,12 +193,6 @@ main {
   margin-bottom: 16px;
 }
 
-.highlight {
-  background: var(--color-accent-light);
-  padding: 1px 6px;
-  border-radius: 4px;
-  font-weight: 500;
-}
 
 .hero-links {
   display: flex;
@@ -313,26 +307,9 @@ main {
 }
 
 .tools-line {
-  margin-top: 10px;
+  margin-top: 28px;
   font-size: 0.9rem;
   color: var(--color-text-secondary);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-}
-
-.research-grid + .tools-line {
-  margin-top: 28px;
-}
-
-.tool-tag {
-  font-size: 0.82rem;
-  font-weight: 500;
-  padding: 3px 10px;
-  border-radius: 4px;
-  background: var(--color-accent-light);
-  color: var(--color-accent);
 }
 
 /* ===== Publications ===== */
@@ -351,14 +328,10 @@ main {
 .pub-year {
   flex-shrink: 0;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--color-accent);
-  background: var(--color-accent-light);
-  padding: 4px 10px;
-  border-radius: 6px;
+  padding-top: 3px;
   min-width: 48px;
-  text-align: center;
-  margin-top: 2px;
 }
 
 .pub-details h3 {
@@ -477,22 +450,9 @@ main {
 }
 
 /* ===== Contact ===== */
-.contact-info {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: 12px;
-  padding: 28px 24px;
-  text-align: center;
-}
-
-.contact-info > p {
-  font-size: 1.05rem;
-  color: var(--color-text);
-  margin: 0;
-}
-
-.contact-btn {
-  margin-top: 16px;
+.contact-text {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
 }
 
 /* ===== Footer ===== */
@@ -621,7 +581,7 @@ footer {
     --color-accent-hover: #8aa4ff;
   }
 
-  .tool-tag, .pub-year, .pub-links a {
+  .pub-year, .pub-links a {
     color: #8aa4ff;
   }
 
@@ -681,14 +641,9 @@ footer {
   .pub-links a::after, .nav-links a::after,
   .pub-details h3 a::after, .exp-org a::after,
   .affiliation a::after, footer a::after,
-  .research-card a::after, .contact-btn::after,
+  .research-card a::after,
   .pub-footer a::after {
     content: none !important;
-  }
-
-  .highlight {
-    background: none;
-    font-weight: 700;
   }
 
   .hero-links .btn {

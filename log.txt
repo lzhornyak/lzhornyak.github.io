@@ -1074,3 +1074,18 @@
 - Fix: Reordered and updated to lead with current focus: Dynamical Systems,
   Physics-Guided Machine Learning, Robotics, Variational Methods, Bifurcation
   Analysis, Computer Vision. CV retained at the end for the CVPR publication.
+
+2026-03-20 — Visual simplification pass
+- The page accumulated visual complexity over 140+ reviews: pill tags, chip badges,
+  highlight backgrounds, card wrappers, border accents, standalone Awards section.
+  Each individually justified, but collectively busy. The eye had no place to rest.
+- Changes:
+  1. Removed .highlight backgrounds from bio — plain text with no colored badges
+  2. Replaced 3 rows of tool-tag pills with a single comma-separated line
+  3. Reverted pub-year chips to plain accent text
+  4. Merged Awards back into Experience as a category group
+  5. Replaced contact card wrapper with a simple text paragraph
+  6. Reduced nav from 6 to 5 links (removed Awards)
+  7. Cleaned up orphaned CSS (.highlight, .tool-tag, .contact-info, .contact-btn)
+- Result: calmer, more authoritative page. Visual variety comes from the research
+  cards and publication structure, not from decorating every element.
