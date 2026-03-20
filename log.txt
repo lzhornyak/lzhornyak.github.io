@@ -640,3 +640,11 @@
 - Fix: Added the topic area: "Dissertation in progress on data-driven approaches
   to nonlinear dynamical systems." Vague enough to not reveal unpublished work
   but specific enough to connect the PhD to the research shown above.
+
+2026-03-20 — Review #92: Research cards not linked to their publication entries
+- Each research card cites a venue ("Chaos 2024", "CVPR 2023", "Robotica 2020")
+  but as plain text. An employer reading a card who wants the full citation, DOI,
+  or code link has to scroll down and visually scan the publications list.
+- Fix: Added anchor IDs to each publication entry and linked the venue references
+  in the research cards to them. Clicking "(Chaos 2024)" now jumps straight to
+  the full publication with its DOI and code links.
