@@ -598,3 +598,12 @@
   contribution ("I develop data-driven methods..."). Moved the highlights to the
   concrete applications (bifurcation analysis, gait optimization) which are more
   informative than the broad category names already in the subtitle.
+
+2026-03-20 — Review #87: Page title prioritizes institution over research areas
+- The <title> and og:title said "PhD Candidate, University of Pennsylvania" — the
+  institution rather than the research identity. In Google results and browser tabs,
+  an employer searching for "dynamical systems robotics PhD" wouldn't see those
+  keywords. The university already appears in meta description, JSON-LD, and content.
+- Fix: Changed to "Lyra Zhornyak — Dynamical Systems, Robotics & ML | UPenn PhD"
+  (59 chars, within Google's ~60 char limit). Research areas are now front and center
+  in search results and browser tabs.
