@@ -607,3 +607,11 @@
 - Fix: Changed to "Lyra Zhornyak — Dynamical Systems, Robotics & ML | UPenn PhD"
   (59 chars, within Google's ~60 char limit). Research areas are now front and center
   in search results and browser tabs.
+
+2026-03-20 — Review #88: Robotica paper missing code link (gait-modelling repo)
+- The Chaos paper links to its bifurcs repo (added in Review #77), but the Robotica
+  paper only had a DOI — no code link. The gait-modelling repo on GitHub contains
+  NSGA-II optimization, quadruped kinematics, and trajectory planning code that
+  clearly corresponds to this paper. Only publication without a code link.
+- Fix: Added "Code" pill link to github.com/lzhornyak/gait-modelling on the
+  Robotica publication entry. All first-author papers now link to their code.
