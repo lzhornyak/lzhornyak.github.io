@@ -316,7 +316,7 @@ main {
   gap: 8px;
 }
 
-.tools-line:first-of-type {
+.research-grid + .tools-line {
   margin-top: 28px;
 }
 

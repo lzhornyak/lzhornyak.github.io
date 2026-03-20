@@ -786,3 +786,11 @@
   and Z." Also tightened phrasing ("quadruped robot locomotion" instead of
   "gait optimization in quadruped robots"; "instance segmentation evaluation"
   instead of "evaluation of instance segmentation").
+
+2026-03-20 — Review #110: CSS :first-of-type selector doesn't work as intended
+- .tools-line:first-of-type was meant to give the first skill row 28px margin-top
+  (separation from research cards) while other rows got 10px. But :first-of-type
+  matches the first <div> in the section — which is .research-grid, not the first
+  .tools-line. The 28px override never applied; all rows had 10px.
+- Fix: Changed to .research-grid + .tools-line (adjacent sibling selector), which
+  correctly targets only the first .tools-line directly after the research grid.
