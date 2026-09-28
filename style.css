@@ -659,11 +659,6 @@ main {
   margin-top: var(--space-2);
 }
 
-/* ===== Contact ===== */
-.contact-text {
-  color: var(--color-text-secondary);
-}
-
 /* ===== Footer ===== */
 .site-footer {
   max-width: var(--max-width);
@@ -844,7 +839,7 @@ main {
   .pub-details h3 a::after, .exp-org a::after,
   .affiliation a::after, .site-footer a::after,
   a.research-card::after, .aside-line a::after,
-  .pub-footer a::after, .contact-text a::after {
+  .pub-footer a::after {
     content: none !important;
   }
 
