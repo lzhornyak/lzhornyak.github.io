@@ -106,6 +106,12 @@ a:hover {
   color: var(--color-on-accent);
 }
 
+/* A facet of a middle-dot line ("University of Pennsylvania · Advised by …")
+   stays whole, so a narrow line breaks between facets, never inside a name */
+.facet {
+  white-space: nowrap;
+}
+
 /* ===== Header ===== */
 .site-header {
   position: sticky;
@@ -772,6 +778,15 @@ main {
 
   .nav-links a {
     white-space: nowrap;
+  }
+
+  /* Centred on phones: the affiliation stacks its facets rather than leave a dot at a line end */
+  .affiliation .facet {
+    display: block;
+  }
+
+  .affiliation .facet-sep {
+    display: none;
   }
 }
 
