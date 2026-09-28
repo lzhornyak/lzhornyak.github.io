@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#121220" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#faf8f9">
   <title>Lyra Zhornyak — Dynamical Systems, Robotics & Physics-Guided ML | UPenn PhD</title>
   <meta name="description" content="Lyra Zhornyak — PhD candidate at the University of Pennsylvania. Research in dynamical systems, robotics, and physics-guided machine learning.">
   <meta property="og:title" content="Lyra Zhornyak — Dynamical Systems, Robotics & Physics-Guided ML | UPenn PhD">
@@ -45,13 +44,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <a href="#about" class="skip-link">Skip to main content</a>
 
-<header>
+<header class="site-header">
   <nav aria-label="Main">
     <div class="nav-inner">
       <a href="#about" class="nav-name">Lyra Zhornyak</a>
@@ -81,11 +80,11 @@
           and optimize robot locomotion.
         </p>
         <div class="hero-links">
-          <a href="#contact" class="btn hero-email js-email" data-user="zhornyak" data-domain="seas.upenn.edu">Email</a>
+          <a href="#contact" class="btn hero-email js-email" data-user="zhornyak" data-domain="engineering.upenn.edu">Email</a>
           <a href="https://scholar.google.com/citations?user=IO8BmHUAAAAJ" class="btn btn-outline" target="_blank" rel="noopener">Google Scholar</a>
           <a href="https://github.com/lzhornyak" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
           <a href="https://orcid.org/0009-0002-4468-8495" class="btn btn-outline" target="_blank" rel="noopener">ORCID</a>
-          <a href="Zhornyak_CV.pdf" class="btn btn-outline" target="_blank" rel="noopener">CV (PDF)</a>
+          <a href="Zhornyak_Resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">Resume (PDF)</a>
         </div>
       </div>
       <div class="hero-photo">
@@ -97,24 +96,47 @@
   <!-- Research Interests -->
   <section id="research" class="section">
     <h2>Research</h2>
+    <figure class="figure featured-figure">
+      <div class="figure-plate">
+        <video id="wave-video" width="816" height="400" muted loop playsinline preload="metadata" poster="figures/wave-poster.webp" aria-label="2D wave from a Gaussian pulse: analytical solution and learned model evolving side by side">
+          <source src="figures/wave.webm" type="video/webm">
+          <source src="figures/wave.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="figure-controls"><button type="button" id="wave-toggle">Play</button><span>t = <span id="wave-time">0.00</span></span></div>
+      <figcaption><span class="figure-num">Fig. 1</span>A 2D wave from a Gaussian pulse: analytical solution (left) and the learned Lagrangian model (right) on a 31 &times; 31 grid.&nbsp;NeurIPS&nbsp;2026.</figcaption>
+    </figure>
     <div class="research-grid">
-      <div class="research-card">
-        <div class="research-icon"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v1.5M12 19.5V21M4.22 4.22l1.06 1.06M17.72 17.72l1.06 1.06M3 12h1.5M19.5 12H21M4.22 19.78l1.06-1.06M17.72 6.28l1.06-1.06"/><circle cx="12" cy="12" r="4.5"/></svg></div>
-        <h3>Dynamical Systems</h3>
-        <p>Currently building structure-preserving neural integrators that use variational principles to learn physically consistent simulations (<a href="#pub-lagrangian">Preprint 2026</a>). Previously developed a transformer architecture that infers bifurcation diagrams from as few as 30 noisy trajectories (<a href="#pub-chaos">Chaos 2024</a>).</p>
-      </div>
-      <div class="research-card">
-        <div class="research-icon"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M12 8V5"/><circle cx="9" cy="14" r="1.5"/><circle cx="15" cy="14" r="1.5"/><path d="M9 18h6"/><path d="M2 12h2M20 12h2"/></svg></div>
-        <h3>Robotics</h3>
-        <p>Optimized quadruped locomotion using central pattern generators, achieving smooth gait transitions with minimized joint torque. Found that optimal gaits closely match biological feline locomotion patterns, validating the approach for planetary rover designs (<a href="#pub-robotica">Robotica 2020</a>).</p>
-      </div>
-      <div class="research-card">
-        <div class="research-icon"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg></div>
-        <h3>Computer Vision</h3>
-        <p>Demonstrated that Average Precision (AP) fails to penalize duplicate predictions in instance segmentation. Proposed Semantic Sorting + NMS, achieving 2x better detection accuracy, 33x fewer duplicates, and 6x faster inference (<a href="#pub-cvpr">CVPR 2023</a>).</p>
-      </div>
+      <a class="research-card" href="#pub-lagrangian">
+        <div class="figure-plate"><img src="figures/double-slit.webp" alt="Average energy density behind a double slit, simulated by the learned model" width="472" height="408" loading="lazy"></div>
+        <div class="research-body">
+          <span class="research-label">Variational structure</span>
+          <h3>Learned Lagrangian models of PDEs</h3>
+          <p>Structure-preserving neural integrators derived from variational&nbsp;principles.</p>
+          <p class="research-venue">NeurIPS 2026</p>
+        </div>
+      </a>
+      <a class="research-card" href="#pub-chaos">
+        <div class="figure-plate"><img src="figures/bif-pair.webp" alt="Ground-truth and predicted bifurcation diagrams side by side" width="1230" height="440" loading="lazy"></div>
+        <div class="research-body">
+          <span class="research-label">Bifurcation structure</span>
+          <h3>Inferring bifurcation diagrams</h3>
+          <p>A transformer that recovers bifurcation diagrams from as few as 30 noisy&nbsp;trajectories.</p>
+          <p class="research-venue">Chaos 2024</p>
+        </div>
+      </a>
+      <a class="research-card" href="#pub-robotica">
+        <div class="figure-plate"><img src="figures/rover.webp" alt="Sagittal-plane model of the quadruped rover with joint angles labelled" width="900" height="501" loading="lazy"></div>
+        <div class="research-body">
+          <span class="research-label">Gait structure</span>
+          <h3>Gait optimization for quadruped rovers</h3>
+          <p>Central pattern generators for minimum-torque gait transitions, matching feline&nbsp;gaits.</p>
+          <p class="research-venue">Robotica 2020</p>
+        </div>
+      </a>
     </div>
-    <p class="tools-line"><strong>Skills:</strong> Python, PyTorch, JAX, C/C++, MATLAB, Java, Haskell, Docker, Git, LaTeX</p>
+    <p class="aside-line"><span class="aside-label">Also</span>Evaluation and representation in computer vision: <a href="#pub-cvpr">Beyond mAP</a> (CVPR 2023) and <a href="#pub-hashencoding">HashEncoding</a> (2022).</p>
+    <p class="aside-line"><span class="aside-label">Skills</span>Python, PyTorch, JAX, C/C++, MATLAB, Java, Haskell, Git, Docker, Linux, Jupyter, LaTeX</p>
   </section>
 
   <!-- Publications -->
@@ -125,9 +147,9 @@
       <div class="pub" id="pub-lagrangian">
         <span class="pub-year">2026</span>
         <div class="pub-details">
-          <h3><a href="https://arxiv.org/abs/2605.07157" target="_blank" rel="noopener">Learned Lagrangian Models of PDEs via Euler&ndash;Lagrange Residual Minimization</a><span class="pub-tag">Preprint</span></h3>
+          <h3><a href="https://arxiv.org/abs/2605.07157" target="_blank" rel="noopener">Learned Lagrangian Models of PDEs via Euler&ndash;Lagrange Residual Minimization</a><span class="pub-tag">Spotlight</span></h3>
           <p class="pub-authors"><strong>Lyra Zhornyak</strong>, Eric Forgoston, M. Ani Hsieh</p>
-          <p class="pub-venue">arXiv preprint, arXiv:2605.07157</p>
+          <p class="pub-venue">Advances in Neural Information Processing Systems (NeurIPS), 2026, to appear</p>
           <div class="pub-links">
             <a href="https://arxiv.org/abs/2605.07157" target="_blank" rel="noopener">arXiv</a>
             <a href="https://arxiv.org/pdf/2605.07157" target="_blank" rel="noopener">PDF</a>
@@ -199,8 +221,8 @@
     <div class="exp-item">
       <div class="exp-date">2020 &ndash; 2027</div>
       <div class="exp-details">
-        <h3>Ph.D. in Computer and Information Science (expected Spring 2027)</h3>
-        <p class="exp-org">University of Pennsylvania &middot; Advised by <a href="https://www.grasp.upenn.edu/people/m-ani-hsieh/" target="_blank" rel="noopener">M. Ani Hsieh</a></p>
+        <h3>Ph.D. in Computer and Information Science (expected Fall 2027)</h3>
+        <p class="exp-org">GRASP Lab, University of Pennsylvania &middot; Advised by <a href="https://www.grasp.upenn.edu/people/m-ani-hsieh/" target="_blank" rel="noopener">M. Ani Hsieh</a></p>
         <p>Dissertation in progress on physics-guided machine learning for dynamical systems.</p>
       </div>
     </div>
@@ -224,11 +246,11 @@
       <h3 class="exp-category">Research</h3>
 
       <div class="exp-item">
-        <div class="exp-date">2020 &ndash; Present</div>
+        <div class="exp-date">2019</div>
         <div class="exp-details">
-          <h4>Graduate Research Assistant</h4>
-          <p class="exp-org">GRASP Lab, University of Pennsylvania &middot; Advised by <a href="https://www.grasp.upenn.edu/people/m-ani-hsieh/" target="_blank" rel="noopener">M. Ani Hsieh</a></p>
-          <p>Designing and running computational experiments on nonlinear dynamical systems, building neural network pipelines for time-series prediction, and collaborating across robotics, control theory, and applied mathematics.</p>
+          <h4>Research Intern</h4>
+          <p class="exp-org">University of Leeds &middot; Supervised by Richard Romano &middot; Leeds, UK</p>
+          <p>Developed a vision-based hand pose tracking system for a driver awareness study in a vehicle simulator.</p>
         </div>
       </div>
     </div>
@@ -262,8 +284,8 @@
         <div class="exp-date">2023 &ndash; Present</div>
         <div class="exp-details">
           <h4>Peer Reviewer</h4>
-          <p class="exp-org">Chaos: An Interdisciplinary Journal of Nonlinear Science; IEEE Robotics and Automation Letters (RA-L); Chaos, Solitons &amp; Fractals</p>
-          <p>Reviewing manuscripts on nonlinear dynamics, robotic systems, and chaos theory for leading journals in the field.</p>
+          <p class="exp-org">NeurIPS; ICLR; CVPR; Chaos: An Interdisciplinary Journal of Nonlinear Science; IEEE Robotics and Automation Letters (RA-L); Chaos, Solitons &amp; Fractals</p>
+          <p>Reviewing for machine learning and computer vision conferences and for journals in nonlinear dynamics and robotics.</p>
         </div>
       </div>
 
@@ -294,7 +316,7 @@
         <div class="exp-details">
           <h4>Mitacs Globalink Research Award</h4>
           <p class="exp-org">University of Leeds, UK</p>
-          <p>Competitive international research fellowship funding collaboration abroad. Project: Vision-based tracking of hands in vehicles.</p>
+          <p>International research award that funded the 2019 research internship at Leeds on vision-based tracking of hands in vehicles.</p>
         </div>
       </div>
 
@@ -313,14 +335,14 @@
   <!-- Contact -->
   <section id="contact" class="section">
     <h2>Contact</h2>
-    <p class="contact-text">I am open to research collaborations and industry or postdoctoral opportunities. Reach me at <a href="#contact" class="js-email js-email-show" data-user="zhornyak" data-domain="seas.upenn.edu">my university email</a><noscript> (zhornyak&nbsp;at&nbsp;seas.upenn.edu)</noscript>.</p>
+    <p class="contact-text">I am open to research collaborations and industry or postdoctoral opportunities. Reach me at <a href="#contact" class="js-email js-email-show" data-user="zhornyak" data-domain="engineering.upenn.edu">my university email</a><noscript> (zhornyak&nbsp;at&nbsp;engineering.upenn.edu)</noscript>.</p>
   </section>
 
 </main>
 
-<footer>
+<footer class="site-footer">
   <p>&copy; 2026 Lyra Zhornyak &middot; <a href="https://www.grasp.upenn.edu/" target="_blank" rel="noopener">GRASP Lab</a>, University of Pennsylvania &middot; Philadelphia, PA</p>
-  <p class="last-updated">Last updated June 13, 2026</p>
+  <p class="last-updated">Last updated September 28, 2026</p>
 </footer>
 
 <script>
@@ -334,6 +356,29 @@
       el.textContent = addr;
     }
   });
+
+  // Featured figure: autoplay muted unless the reader prefers reduced motion;
+  // the time readout shows simulated time (playback seconds / 2).
+  (function () {
+    var v = document.getElementById('wave-video');
+    var b = document.getElementById('wave-toggle');
+    var t = document.getElementById('wave-time');
+    if (!v) return;
+    function sync() { b.textContent = v.paused ? 'Play' : 'Pause'; }
+    b.addEventListener('click', function () {
+      if (v.paused) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+      else v.pause();
+    });
+    v.addEventListener('play', sync);
+    v.addEventListener('pause', sync);
+    v.addEventListener('timeupdate', function () { t.textContent = (v.currentTime / 2).toFixed(2); });
+    // Rest on t = 2.00, where the wave has structure, rather than the flat first frame.
+    function rest() { if (v.paused && v.currentTime === 0) v.currentTime = 4; }
+    if (v.readyState >= 1) rest(); else v.addEventListener('loadedmetadata', rest);
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      var p = v.play(); if (p && p.catch) p.catch(function () {});
+    }
+  })();
 </script>
 
 </body>
