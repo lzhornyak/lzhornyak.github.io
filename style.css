@@ -546,12 +546,6 @@ main {
   margin-bottom: var(--space-2);
 }
 
-.pub-footer {
-  margin-top: var(--space-6);
-  font-size: 15px;
-  color: var(--color-text-secondary);
-}
-
 /* ===== Tag and Link Chips ===== */
 .pub-tag {
   display: inline-block;
@@ -838,8 +832,7 @@ main {
   .btn::after, .pub-links a::after, .nav-links a::after,
   .pub-details h3 a::after, .exp-org a::after,
   .affiliation a::after, .site-footer a::after,
-  a.research-card::after, .aside-line a::after,
-  .pub-footer a::after {
+  a.research-card::after, .aside-line a::after {
     content: none !important;
   }
 
